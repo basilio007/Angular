@@ -1,0 +1,25 @@
+<div class="card-container">
+  <div class="card" *ngFor="let character of serverCharacters">
+
+    <label>Nombre</label>
+    <input type="text" [(ngModel)]="character.name" [readonly]="!character.editable">
+    <div class="cardShow" *ngIf="character.mostrarElementos">
+      <label>Fuerza</label>
+        <input type="number" [(ngModel)]="character.strength" [readonly]="!character.editable">
+        <label>Agilidad</label>
+        <input type="number" [(ngModel)]="character.agility" [readonly]="!character.editable">
+        <label>Inteligencia</label>
+        <input type="number" [(ngModel)]="character.intelligence" [readonly]="!character.editable">
+        <label>Life</label>
+        <input type="text" [(ngModel)]="character.life" [readonly]="!character.editable">
+
+        <button (click)="toggleEdit(character)">{{ character.editable ? 'Save' : 'Edit' }}</button>
+    </div>
+    <button (click)="toggleVisibility(character)"> {{ character.mostrarElementos ? 'Hide' : 'Show' }}</button>
+
+
+    <div *ngIf="character.editable">
+      <p>Editing: {{ character | json }}</p>
+    </div>
+  </div>
+</div>
