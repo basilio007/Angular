@@ -1,9 +1,0 @@
-<div *ngFor="let photo of photos">
-  <div>
-    <img [src]="photo.getImgUrl()" alt="Foto" />
-    <p>{{ photo.description }}</p>
-    <button (click)="photo.changeLock()">
-      {{ photo.locked ? 'Desbloquear' : 'Bloquear' }}
-    </button>
-  </div>
-</div>
