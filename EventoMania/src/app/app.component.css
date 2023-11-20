@@ -1,5 +1,7 @@
 
-.tarjetas {
+.tarjeta1 {
+ /* display: flex;
+  flex-wrap: wrap;*/
     width: 200px; 
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -19,14 +21,117 @@
     padding: 15px;
   }
   
-  .card2header {
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
-    font-weight: bold;
-  }
+ 
+
+  .tarjeta2 {
+    /* display: flex;
+     flex-wrap: wrap;*/
+       width: 200px; 
+       border: 1px solid #ccc;
+       border-radius: 8px;
+       overflow: hidden;
+       margin: 20px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+
+     .card2header {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+    }
+    
+    .car2body {
+      padding: 15px;
+    }
   
-  .car2body {
-    padding: 15px;
-  }
+    .tarjeta3 {
+      /* display: flex;
+       flex-wrap: wrap;*/
+         width: 200px; 
+         border: 1px solid #ccc;
+         border-radius: 8px;
+         overflow: hidden;
+         margin: 20px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       }
   
+       .card3header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+      }
+      
+      .car3body {
+        padding: 15px;
+      }
+
+      .tarjeta4 {
+        /* display: flex;
+         flex-wrap: wrap;*/
+           width: 200px; 
+           border: 1px solid #ccc;
+           border-radius: 8px;
+           overflow: hidden;
+           margin: 20px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         }
+    
+         .card4header {
+          background-color: #007bff;
+          color: white;
+          padding: 10px;
+          font-weight: bold;
+        }
+        
+        .car4body {
+          padding: 15px;
+        }
+
+        .tarjeta5 {
+          /* display: flex;
+           flex-wrap: wrap;*/
+             width: 200px; 
+             border: 1px solid #ccc;
+             border-radius: 8px;
+             overflow: hidden;
+             margin: 20px;
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           }
+      
+           .card5header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+          }
+          
+          .car5body {
+            padding: 15px;
+          }
+
+          .tarjeta6 {
+            /* display: flex;
+             flex-wrap: wrap;*/
+               width: 200px; 
+               border: 1px solid #ccc;
+               border-radius: 8px;
+               overflow: hidden;
+               margin: 20px;
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+             }
+        
+             .card6header {
+              background-color: #007bff;
+              color: white;
+              padding: 10px;
+              font-weight: bold;
+            }
+            
+            .car6body {
+              padding: 15px;
+            }
+
+
+            
