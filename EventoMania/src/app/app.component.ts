@@ -27,11 +27,11 @@ export class AppComponent implements OnInit {
     this.soltarPorDireccion();
   }
 proximosEventos(): Evento[]{
-  return this.eventos.filter(Evento => Evento.fecha >= this.fechaactual);
+  return this.filtrated_directions.filter(Evento => Evento.fecha >= this.fechaactual);
 }
 
 Eventospasados(): Evento[]{
-  return this.eventos.filter(Evento => Evento.fecha <= this.fechaactual);
+  return this.filtrated_directions.filter(Evento => Evento.fecha <= this.fechaactual);
 }
 
 getdirections(): string[]{

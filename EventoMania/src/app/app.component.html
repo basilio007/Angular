@@ -1,14 +1,26 @@
 
 <h2>Proximos Eventos</h2>
 
-<label for="direccionSelector"></label>
 
+<div>
+
+   <label for="direccionSelector">Selecciona una Dirección</label>
+   <select id="direccionSelector" [(ngModel)]="selected_direction" (change)="ondiretion()">
+      <option *ngFor="let direccion of directions" [value]="direccion">{{direccion}}</option>
+   </select>
+
+</div>
 
 
 <div *ngFor="let evento of proximosEventos()" >
+
+
    <div class="tarjeta1">
-      <div class="car1body">
+
+      <div class="card1header">
          <b>{{evento.titulo}}</b>
+      </div>
+      <div class="car1body"> 
          <p>{{evento.artista}}</p>
          <p>{{evento.direccion}}</p>
          <p>{{evento.fecha}}</p>
@@ -22,8 +34,13 @@
 <h2>Eventos Pasados</h2>
 
 <div *ngFor="let evento of Eventospasados()" >
-   <div class="tarjeta1">
-      <div class="car1body">
+   <div class="tarjeta2">
+
+      <div class="card2header">
+         <b>{{evento.titulo}}</b>
+      </div>
+
+      <div class="car2body">
          <b>{{evento.titulo}}</b>
          <p>{{evento.artista}}</p>
          <p>{{evento.direccion}}</p>
