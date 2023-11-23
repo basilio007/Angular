@@ -1,10 +1,22 @@
+.plegable{
+  margin:auto;
+  text-align: center;
+}
 
+.nextEvents{
+  text-align: center;
+}
+
+.tarjetas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tarjeta1 {
- /* display: flex;
-  flex-wrap: wrap;*/
+    text-align: center;
     width: 200px; 
     border: 2px solid #181313;
-   border-radius: 20px;
+    border-radius: 20px;
     overflow: hidden;
     margin: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.39);
@@ -21,9 +33,20 @@
     padding: 15px;
   }
 
+  .passedEvents{
+    text-align: center;
+  }
+
+  .tarjetas2{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+      
+  }
+
   .tarjeta2 {
-    /* display: flex;
-     flex-wrap: wrap;*/
+    text-align: center;
+     /* flex-wrap: wrap;*/
        width: 200px; 
        border: 2px solid #181313;
       border-radius: 20px;
