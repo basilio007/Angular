@@ -66,3 +66,24 @@
     padding: 15px;
   }
  
+label{
+  background-color: #181313;
+  color: aliceblue;
+  border-radius: 5px;
+}
+select{
+  background-color: #181313;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.nextEvents{
+  background-color: #181313;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.passedEvents{
+  background-color: darkgrey;
+  color: aliceblue;
+  border-radius: 10px; 
+}
